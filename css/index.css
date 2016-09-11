@@ -247,6 +247,16 @@ html,body{
     width:100px;
     margin-bottom:2em;
 }
+
+.memberwork_usr_portrait:hover {
+    transform-origin: 50% 50%;
+    animation:animations 1s ease-out forwards;
+}
+
+@keyframes animations{
+    0%{transform:rotate(0deg);opacity:0;}
+    100%{transform:rotate(360deg);opacity:1;}
+}
 .full-content{
 
 }
